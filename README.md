@@ -33,7 +33,7 @@ The current implementation supports:
 
 RGB frames, onset/apex annotations, class labels, and pre-computed onset-to-apex optical-flow images are required.
 
-## 🚀 Usage
+##  Usage
 
 ### 1. Region-Recovery Pre-training
 
