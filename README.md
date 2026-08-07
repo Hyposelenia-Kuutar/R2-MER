@@ -30,7 +30,6 @@ The current implementation supports:
 * CASME II
 * SAMM
 * SMIC
-* CAS(ME)^3
 
 RGB frames, onset/apex annotations, class labels, and pre-computed onset-to-apex optical-flow images are required.
 
@@ -112,17 +111,3 @@ R2-MER/
 * Multi-dataset pre-training generates approximately `N²` target-source combinations for `N` valid Apex images and may require substantial storage.
 * The datasets are not included in this repository.
 
-## 📜 Citation
-
-If you find this repository useful, please consider citing our work:
-
-```bibtex
-@article{r2mer,
-  title   = {R2-MER: Micro-Expression Recognition via Region-Aware Reconstruction and Modality-Aware Fusion},
-  author  = {Anonymous},
-  journal = {Neurocomputing},
-  year    = {2026}
-}
-```
-
-Citation information will be updated after publication.
