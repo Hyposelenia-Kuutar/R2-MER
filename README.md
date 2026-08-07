@@ -1,6 +1,6 @@
 # R2-MER: Micro-Expression Recognition via Region-Aware Reconstruction and Modality-Aware Fusion
 
-Official PyTorch implementation of **R2-MER**, a two-stage dual-stream framework for Micro-Expression Recognition (MER).
+**R2-MER**, a two-stage dual-stream framework for Micro-Expression Recognition (MER).
 
 R2-MER first learns region-aware RGB representations through a facial key-region perturbation and reconstruction proxy task, and then integrates static RGB features with dynamic optical-flow features for downstream recognition.
 
