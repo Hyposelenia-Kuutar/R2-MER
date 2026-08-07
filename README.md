@@ -30,6 +30,7 @@ The current implementation supports:
 * CASME II
 * SAMM
 * SMIC
+* CAS(ME)^3
 
 RGB frames, onset/apex annotations, class labels, and pre-computed onset-to-apex optical-flow images are required.
 
