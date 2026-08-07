@@ -79,7 +79,7 @@ Regional Optical Flow ─> HTNet ───────┘
 
 During supervised training, the pretrained RGB branch remains frozen, while HTNet is initially frozen and later unfrozen for joint optimization with MAFM.
 
-## 📊 Evaluation
+##  Evaluation
 
 The LOSO pipeline reports:
 
