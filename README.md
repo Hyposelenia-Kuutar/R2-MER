@@ -4,7 +4,7 @@ Official PyTorch implementation of **R2-MER**, a two-stage dual-stream framework
 
 R2-MER first learns region-aware RGB representations through a facial key-region perturbation and reconstruction proxy task, and then integrates static RGB features with dynamic optical-flow features for downstream recognition.
 
-## ✨ Highlights
+##  Highlights
 
 * **Facial Key-Region Perturbation Pre-training:** swaps four facial regions around the eyes and mouth corners between Apex images and reconstructs the original facial appearance without emotion labels.
 * **HKPFE:** preserves fine-grained facial information using parallel high- and low-resolution feature extraction.
@@ -13,7 +13,7 @@ R2-MER first learns region-aware RGB representations through a facial key-region
 * **Multi-Dataset Pre-training:** supports combining multiple datasets into a unified Apex pool for cross-dataset region perturbation.
 * **LOSO Evaluation:** automatically reports ACC, UF1, UAR, and confusion matrices.
 
-## 🛠️ Installation
+##  Installation
 
 ```bash
 git clone https://github.com/Hyposelenia-Kuutar/R2-MER.git
@@ -23,7 +23,7 @@ pip install -r requirements.txt
 pip install pytorch-msssim mediapipe tqdm
 ```
 
-## 📂 Supported Datasets
+##  Supported Datasets
 
 The current implementation supports:
 
@@ -90,7 +90,7 @@ The LOSO pipeline reports:
 
 `main.py` automatically performs LOSO evaluation for all subjects and saves subject-level and overall results as CSV files.
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```text
 R2-MER/
@@ -104,7 +104,7 @@ R2-MER/
 └── requirements.txt
 ```
 
-## 📝 Notes
+##  Notes
 
 * Dataset and result paths should be modified according to your environment.
 * Optical-flow images should be generated in advance.
