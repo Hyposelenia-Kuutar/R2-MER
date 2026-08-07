@@ -4,7 +4,7 @@ import torch
 import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader
 import cv2
-from new_model_5_ import RegionRecoveryModel
+from RGB_model import RegionRecoveryModel
 from generate_mix import prepare_pretrain_data
 from pytorch_msssim import SSIM
 
