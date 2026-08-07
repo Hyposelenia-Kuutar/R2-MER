@@ -16,7 +16,7 @@ R2-MER first learns region-aware RGB representations through a facial key-region
 ## 🛠️ Installation
 
 ```bash
-git clone https://github.com/yourusername/R2-MER.git
+git clone https://github.com/Hyposelenia-Kuutar/R2-MER.git
 cd R2-MER
 
 pip install -r requirements.txt
