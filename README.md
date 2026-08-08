@@ -714,8 +714,3 @@ If you use this repository, please also consider citing the original HTNet work.
 
 ---
 
-## License
-
-Please refer to the `LICENSE` file for the license of this repository.
-
-The original datasets and third-party implementations are subject to their respective licenses.
