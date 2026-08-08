@@ -518,7 +518,7 @@ Each hyperparameter combination is evaluated over the complete LOSO protocol.
 
 ---
 
-## CASME II Three-Class Evaluation
+## CASME II Three-Class Tarin And Evaluation
 
 ```bash
 python -u tools/run_loso.py --config configs/casme2_3class.py
@@ -526,7 +526,7 @@ python -u tools/run_loso.py --config configs/casme2_3class.py
 
 ---
 
-## SAMM Three-Class Evaluation
+## SAMM Three-Class Train And Evaluation
 
 ```bash
 python -u tools/run_loso.py --config configs/samm_3class.py
@@ -534,7 +534,7 @@ python -u tools/run_loso.py --config configs/samm_3class.py
 
 ---
 
-## SMIC Three-Class Evaluation
+## SMIC Three-Class Train And Evaluation
 
 ```bash
 python -u tools/run_loso.py --config configs/smic_3class.py
@@ -542,7 +542,7 @@ python -u tools/run_loso.py --config configs/smic_3class.py
 
 ---
 
-## CASME II Five-Class Evaluation
+## CASME II Five-Class Train And Evaluation
 
 ```bash
 python -u tools/run_loso.py --config configs/casme2_5class.py
@@ -550,7 +550,7 @@ python -u tools/run_loso.py --config configs/casme2_5class.py
 
 ---
 
-## SAMM Five-Class Evaluation
+## SAMM Five-Class Train And Evaluation
 
 ```bash
 python -u tools/run_loso.py --config configs/samm_5class.py
@@ -558,7 +558,7 @@ python -u tools/run_loso.py --config configs/samm_5class.py
 
 ---
 
-## Joint Three-Dataset Evaluation
+## Joint Three-Dataset Train And Evaluation
 
 The joint CASME II + SAMM + SMIC experiment is configured through:
 
