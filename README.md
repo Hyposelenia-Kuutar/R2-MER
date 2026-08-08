@@ -72,10 +72,11 @@ The main directories are organized as follows:
 
 The experiments were implemented using:
 
-- Ubuntu 22.04
+- Linux(Ubuntu 22.04)
 - Python 3.9
 - PyTorch 2.0.1
 - NVIDIA GPU with CUDA 12.2
+- Conda (Miniconda or Anaconda)
 
 Install the required packages with:
 
@@ -88,8 +89,8 @@ It is recommended to create an isolated Python environment before installation.
 For example:
 
 ```bash
-python -m venv r2mer_env
-source r2mer_env/bin/activate
+conda create -n r2mer_env python=3.9
+conda activate r2mer_env
 
 pip install -r requirements.txt
 ```
