@@ -75,6 +75,7 @@ The experiments were implemented using:
 - Ubuntu 22.04
 - Python 3.9
 - PyTorch 2.0.1
+- NVIDIA GPU with CUDA 12.2
 
 Install the required packages with:
 
