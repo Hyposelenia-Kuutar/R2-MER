@@ -633,13 +633,13 @@ nohup python -u tools/run_loso.py \
     > three_db.log 2>&1 &
 ```
 
-###The training log can be monitored using:
+### The training log can be monitored using:
 
 ```bash
 tail -f casme2_3class.log
 ```
 
-###GPU usage can be monitored using:
+### GPU usage can be monitored using:
 
 ```bash
 nvidia-smi
