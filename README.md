@@ -116,7 +116,6 @@ The original datasets should be requested or downloaded according to the license
 - **SMIC**:  
   [https://www.oulu.fi/en/university/faculties-and-units/faculty-information-technology-and-electrical-engineering/center-for-machine-vision-and-signal-analysis](https://www.oulu.fi/en/university/faculties-and-units/faculty-information-technology-and-electrical-engineering/center-for-machine-vision-and-signal-analysis)
 
-Please follow the corresponding dataset licenses and usage requirements. The original datasets are **not redistributed** in this repository.
 
 ### 2. Prepare RGB Frames and Optical Flow
 
