@@ -72,7 +72,7 @@ The main directories are organized as follows:
 
 The experiments were implemented using:
 
-- Linux(Ubuntu 22.04)
+- Linux (Ubuntu 22.04)
 - Python 3.9
 - PyTorch 2.0.1
 - NVIDIA GPU with CUDA 12.2
